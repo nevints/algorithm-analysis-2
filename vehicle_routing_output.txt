@@ -1,0 +1,31 @@
+VEHICLE ROUTING PROBLEM SOLUTION
+---------------------------------
+
+Delivery Locations (Coordinates)
+Depot : (0, 0)
+C1 : (2, 3)
+C2 : (5, 4)
+C3 : (1, 6)
+C4 : (6, 1)
+C5 : (3, 7)
+
+Vehicle Information
+Number of Vehicles : 2
+Vehicle Capacity   : 6
+
+Distance Matrix
+   0.0   3.61    6.4   6.08   6.08   7.62 
+  3.61    0.0   3.16   3.16   4.47   4.12 
+   6.4   3.16    0.0   4.47   3.16   3.61 
+  6.08   3.16   4.47    0.0   7.07   2.24 
+  6.08   4.47   3.16   7.07    0.0   6.71 
+  7.62   4.12   3.61   2.24   6.71    0.0 
+
+Vehicle Routes
+Vehicle 1 : Depot -> C1 -> C2 -> Depot
+Vehicle 2 : Depot -> C3 -> C5 -> Depot
+
+Total Travel Distance : 29.11
+
+Time Complexity
+Greedy Nearest Neighbor Approach ~ O(n^2)
